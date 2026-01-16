@@ -128,47 +128,7 @@
 }
 
 
-/* PROMO BÖLÜMÜ */
-.big-promo {
-  flex: 0 0 52%;
-  background: #ce2829;
-  border-radius: 12px;
-  color: #ffffff;
-  padding: 32px;
-  padding-right: 260px;   /* resim alanı */
-  padding-bottom: 80px;   /* buton alanı */
-  position: relative;
-  overflow: hidden;
-}
-
-.big-promo .promo-img {
-  position: absolute;
-  right: -30px;
-  bottom: -30px;
-  width: 260px;   /* tekrar büyük */
-  height: auto;
-  z-index: 1;
-  pointer-events: none;
-}
-
-.promo-box {
-  border-radius: 12px;
-  padding: 28px 32px;
-  padding-right: 200px;
-  padding-bottom: 70px;
-  position: relative;
-  overflow: hidden;
-}
-
-.promo-mid-img {
-  position: absolute;
-  right: 16px;
-  bottom: 10px;
-  width: 180px;  /* tekrar büyük */
-  height: auto;
-  z-index: 1;
-  pointer-events: none;
-}
+/* PROMO BÖLÜMÜ */ .promo { max-width: 1072px; margin: 40px auto 40px; padding-inline: 20px; display: flex; gap: 16px; } .big-promo { flex: 0 0 52%; background: #ce2829; border-radius: 12px; color: #ffffff; padding: 32px; position: relative; overflow: hidden; } .big-promo h3 { font-family: "Quattrocento", serif; font-size: 40px; margin: 0 0 8px; } .big-promo p { margin: 0 0 24px; font-size: 18px; } .big-promo .promo-img { position: absolute; right: -40px; bottom: -40px; width: 260px; } .promo-col { flex: 0 0 48%; display: flex; flex-direction: column; gap: 10px; } .promo-box { border-radius: 12px; padding: 28px 32px; position: relative; overflow: hidden; } .promo-box h3 { font-size: 26px; margin: 0 0 16px; } .promo-box.black { background: #292929; color: #ffffff; } .promo-box.yellow { background: #ffeecc; color: #d80027; } .promo-box .btn-white, .big-promo .btn-white { display: inline-flex; align-items: center; justify-content: center; padding: 10px 24px; border-radius: 999px; background: #ffffff; color: #ce2829; font-size: 14px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; } .promo-mid-img { position: absolute; right: 16px; bottom: 10px; width: 180px; }
 
 .promo-box .btn-white,
 .big-promo .btn-white {
