@@ -143,9 +143,8 @@
   border-radius: 12px;
   color: #ffffff;
   padding: 32px;
-  /* görselin buton/metin alanına binmemesi için */
-  padding-right: 220px;
-  padding-bottom: 72px;
+  padding-right: 260px;   /* resim alanı */
+  padding-bottom: 80px;   /* buton alanı */
   position: relative;
   overflow: hidden;
 }
@@ -163,13 +162,12 @@
 
 .big-promo .promo-img {
   position: absolute;
-  right: -40px;
-  bottom: -40px;
-  width: min(260px, 48%);
+  right: -30px;
+  bottom: -30px;
+  width: 260px;   /* tekrar büyük */
   height: auto;
-  object-fit: contain;
-  pointer-events: none;
   z-index: 1;
+  pointer-events: none;
 }
 
 .promo-col {
@@ -182,9 +180,8 @@
 .promo-box {
   border-radius: 12px;
   padding: 28px 32px;
-  /* sağ altta görsel varsa buton/metni koru */
-  padding-right: 220px;
-  padding-bottom: 64px;
+  padding-right: 200px;
+  padding-bottom: 70px;
   position: relative;
   overflow: hidden;
 }
@@ -228,11 +225,10 @@
   position: absolute;
   right: 16px;
   bottom: 10px;
-  width: min(180px, 40%);
+  width: 180px;  /* tekrar büyük */
   height: auto;
-  object-fit: contain;
-  pointer-events: none;
   z-index: 1;
+  pointer-events: none;
 }
 
 /* ORTA BAŞLIK */
