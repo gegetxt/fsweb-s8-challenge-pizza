@@ -103,7 +103,7 @@ describe('Pizza Sipariş Formu Testleri', () => {
       .should('contain', 'SİPARİŞ VER');
     
     // API isteğini mockla
-    cy.intercept('POST', 'https://reqres.in/api/pizza', {
+    cy.intercept('POST', 'https://jsonplaceholder.typicode.com/posts', {
       statusCode: 201,
       body: {
         data: {
