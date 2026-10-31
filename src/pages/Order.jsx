@@ -166,12 +166,9 @@ export default function Order({ setOrderData }) {
                 fiyat: calculateTotalPrice()
             };
             
-            const response = await axios.post('https://reqres.in/api/pizza', payload, {
-                headers: {
-                    'x-api-key': 'reqres-free-v1'
-                },
-                timeout: 10000
-            });
+            const response = await axios.post('https://jsonplaceholder.typicode.com/posts', payload, {
+    timeout: 10000
+});
             
             const responseData = response.data.data || response.data;
             console.log('Sipariş Özeti:', responseData);
